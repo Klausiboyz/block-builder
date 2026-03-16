@@ -14,3 +14,25 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# C# / Build artifacts
+bin/
+obj/
+*.csproj.user
+*.sln.user
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific (Linux/Ubuntu)
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Misc
+*.log
+*.tmp
